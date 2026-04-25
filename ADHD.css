@@ -1,0 +1,19 @@
+.makeB {
+  position: fixed;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  padding: 13.62px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.62px;
+  border-radius: 13.62px;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 6.81px 6.81px 0 rgba(0, 0, 0, 0.25);
+}
+.makeB :active {
+  background: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+}
