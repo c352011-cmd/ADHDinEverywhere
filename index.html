@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="ADHD.css" />
+    <script src="function.js"></script>
     <style>
       body {
         overflow-x: hidden;
@@ -37,6 +38,12 @@
         position: fixed;
         top: 0;
         left: 0;
+      }
+      #makeB :hover {
+        background: rgba(255, 255, 255, 0.9);
+      }
+      #makeB :active {
+        transform: translateX(-50%) scale(1.05);
       }
     </style>
   </head>
@@ -79,8 +86,11 @@
     <canvas id="canvas"> </canvas>
     <button
       type="button"
-      onclick="location.href = 'newball.html'"
       class="makeB"
+      onclick="
+        location.href =
+          '/Users/olivia/Documents/GitHub/ADHDinEverywhere/newball.html'
+      "
     >
       tHrow your bAll
     </button>
